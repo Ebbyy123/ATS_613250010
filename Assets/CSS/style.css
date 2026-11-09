@@ -1,0 +1,30 @@
+.login-card {
+    max-width: 420px;
+    border-radius: 1rem;
+}
+
+.brand-panel {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+}
+
+.brand-icon {
+    font-size: 5rem;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 .2rem rgba(44, 83, 100, .25);
+    border-color: #2c5364;
+}
+
+.btn-login {
+    background: #2c5364;
+    border-color: #2c5364;
+    color: #fff;
+}
+
+.btn-login:hover {
+    background: #203a43;
+    border-color: #203a43;
+    color: #fff;
+}

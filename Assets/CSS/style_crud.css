@@ -1,0 +1,25 @@
+:root {
+    --warna-utama: #2c5364;
+    --warna-gelap: #203a43;
+}
+
+.bg-tema {
+    background-color: var(--warna-utama) !important;
+}
+
+.btn-tema {
+    background-color: var(--warna-utama);
+    border-color: var(--warna-utama);
+    color: #fff;
+}
+
+.btn-tema:hover {
+    background-color: var(--warna-gelap);
+    border-color: var(--warna-gelap);
+    color: #fff;
+}
+
+.table-tema th {
+    background-color: var(--warna-utama);
+    color: #fff;
+}
